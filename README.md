@@ -1,0 +1,1 @@
+# IntellectaAssistant-ios
