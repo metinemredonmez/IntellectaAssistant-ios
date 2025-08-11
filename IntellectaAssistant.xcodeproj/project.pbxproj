@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3FAB6A82E4A188500A36D20 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAB6A72E4A188500A36D20 /* Config.swift */; };
+		C3FAB6AA2E4A189F00A36D20 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAB6A92E4A189F00A36D20 /* Models.swift */; };
+		C3FAB6AC2E4A18B400A36D20 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAB6AB2E4A18B400A36D20 /* SpeechManager.swift */; };
+		C3FAB6AE2E4A18CB00A36D20 /* AnswerStreamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAB6AD2E4A18CB00A36D20 /* AnswerStreamer.swift */; };
+		C3FAB6B02E4A18E600A36D20 /* ChatVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAB6AF2E4A18E600A36D20 /* ChatVM.swift */; };
+		C3FAB6B22E4A18FD00A36D20 /* ChatUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAB6B12E4A18FD00A36D20 /* ChatUI.swift */; };
+		C3FAB6B42E4A191B00A36D20 /* IntellectaAssistantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FAB6B32E4A191B00A36D20 /* IntellectaAssistantApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3FAB6892E4A16D000A36D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FAB6732E4A16CE00A36D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FAB67A2E4A16CE00A36D20;
+			remoteInfo = IntellectaAssistant;
+		};
+		C3FAB6932E4A16D000A36D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3FAB6732E4A16CE00A36D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3FAB67A2E4A16CE00A36D20;
+			remoteInfo = IntellectaAssistant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3FAB67B2E4A16CE00A36D20 /* IntellectaAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntellectaAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FAB6882E4A16D000A36D20 /* IntellectaAssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntellectaAssistantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FAB6922E4A16D000A36D20 /* IntellectaAssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntellectaAssistantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FAB6A72E4A188500A36D20 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C3FAB6A92E4A189F00A36D20 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C3FAB6AB2E4A18B400A36D20 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		C3FAB6AD2E4A18CB00A36D20 /* AnswerStreamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerStreamer.swift; sourceTree = "<group>"; };
+		C3FAB6AF2E4A18E600A36D20 /* ChatVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVM.swift; sourceTree = "<group>"; };
+		C3FAB6B12E4A18FD00A36D20 /* ChatUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatUI.swift; sourceTree = "<group>"; };
+		C3FAB6B32E4A191B00A36D20 /* IntellectaAssistantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntellectaAssistantApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C3FAB6A62E4A182100A36D20 /* Exceptions for "IntellectaAssistant" folder in "IntellectaAssistant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C3FAB67A2E4A16CE00A36D20 /* IntellectaAssistant */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3FAB67D2E4A16CE00A36D20 /* IntellectaAssistant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3FAB6A62E4A182100A36D20 /* Exceptions for "IntellectaAssistant" folder in "IntellectaAssistant" target */,
+			);
+			path = IntellectaAssistant;
+			sourceTree = "<group>";
+		};
+		C3FAB68B2E4A16D000A36D20 /* IntellectaAssistantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IntellectaAssistantTests;
+			sourceTree = "<group>";
+		};
+		C3FAB6952E4A16D000A36D20 /* IntellectaAssistantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = IntellectaAssistantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3FAB6782E4A16CE00A36D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FAB6852E4A16D000A36D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FAB68F2E4A16D000A36D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3FAB6722E4A16CE00A36D20 = {
+			isa = PBXGroup;
+			children = (
+				C3FAB6B32E4A191B00A36D20 /* IntellectaAssistantApp.swift */,
+				C3FAB6B12E4A18FD00A36D20 /* ChatUI.swift */,
+				C3FAB6AF2E4A18E600A36D20 /* ChatVM.swift */,
+				C3FAB6AD2E4A18CB00A36D20 /* AnswerStreamer.swift */,
+				C3FAB6AB2E4A18B400A36D20 /* SpeechManager.swift */,
+				C3FAB6A72E4A188500A36D20 /* Config.swift */,
+				C3FAB6A92E4A189F00A36D20 /* Models.swift */,
+				C3FAB67D2E4A16CE00A36D20 /* IntellectaAssistant */,
+				C3FAB68B2E4A16D000A36D20 /* IntellectaAssistantTests */,
+				C3FAB6952E4A16D000A36D20 /* IntellectaAssistantUITests */,
+				C3FAB67C2E4A16CE00A36D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3FAB67C2E4A16CE00A36D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3FAB67B2E4A16CE00A36D20 /* IntellectaAssistant.app */,
+				C3FAB6882E4A16D000A36D20 /* IntellectaAssistantTests.xctest */,
+				C3FAB6922E4A16D000A36D20 /* IntellectaAssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3FAB67A2E4A16CE00A36D20 /* IntellectaAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FAB69C2E4A16D000A36D20 /* Build configuration list for PBXNativeTarget "IntellectaAssistant" */;
+			buildPhases = (
+				C3FAB6772E4A16CE00A36D20 /* Sources */,
+				C3FAB6782E4A16CE00A36D20 /* Frameworks */,
+				C3FAB6792E4A16CE00A36D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3FAB67D2E4A16CE00A36D20 /* IntellectaAssistant */,
+			);
+			name = IntellectaAssistant;
+			packageProductDependencies = (
+			);
+			productName = IntellectaAssistant;
+			productReference = C3FAB67B2E4A16CE00A36D20 /* IntellectaAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3FAB6872E4A16D000A36D20 /* IntellectaAssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FAB69F2E4A16D000A36D20 /* Build configuration list for PBXNativeTarget "IntellectaAssistantTests" */;
+			buildPhases = (
+				C3FAB6842E4A16D000A36D20 /* Sources */,
+				C3FAB6852E4A16D000A36D20 /* Frameworks */,
+				C3FAB6862E4A16D000A36D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FAB68A2E4A16D000A36D20 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3FAB68B2E4A16D000A36D20 /* IntellectaAssistantTests */,
+			);
+			name = IntellectaAssistantTests;
+			packageProductDependencies = (
+			);
+			productName = IntellectaAssistantTests;
+			productReference = C3FAB6882E4A16D000A36D20 /* IntellectaAssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3FAB6912E4A16D000A36D20 /* IntellectaAssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FAB6A22E4A16D000A36D20 /* Build configuration list for PBXNativeTarget "IntellectaAssistantUITests" */;
+			buildPhases = (
+				C3FAB68E2E4A16D000A36D20 /* Sources */,
+				C3FAB68F2E4A16D000A36D20 /* Frameworks */,
+				C3FAB6902E4A16D000A36D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3FAB6942E4A16D000A36D20 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3FAB6952E4A16D000A36D20 /* IntellectaAssistantUITests */,
+			);
+			name = IntellectaAssistantUITests;
+			packageProductDependencies = (
+			);
+			productName = IntellectaAssistantUITests;
+			productReference = C3FAB6922E4A16D000A36D20 /* IntellectaAssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3FAB6732E4A16CE00A36D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C3FAB67A2E4A16CE00A36D20 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C3FAB6872E4A16D000A36D20 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C3FAB67A2E4A16CE00A36D20;
+					};
+					C3FAB6912E4A16D000A36D20 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C3FAB67A2E4A16CE00A36D20;
+					};
+				};
+			};
+			buildConfigurationList = C3FAB6762E4A16CE00A36D20 /* Build configuration list for PBXProject "IntellectaAssistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3FAB6722E4A16CE00A36D20;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3FAB67C2E4A16CE00A36D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3FAB67A2E4A16CE00A36D20 /* IntellectaAssistant */,
+				C3FAB6872E4A16D000A36D20 /* IntellectaAssistantTests */,
+				C3FAB6912E4A16D000A36D20 /* IntellectaAssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3FAB6792E4A16CE00A36D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FAB6862E4A16D000A36D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FAB6902E4A16D000A36D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3FAB6772E4A16CE00A36D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FAB6AC2E4A18B400A36D20 /* SpeechManager.swift in Sources */,
+				C3FAB6B42E4A191B00A36D20 /* IntellectaAssistantApp.swift in Sources */,
+				C3FAB6B02E4A18E600A36D20 /* ChatVM.swift in Sources */,
+				C3FAB6A82E4A188500A36D20 /* Config.swift in Sources */,
+				C3FAB6B22E4A18FD00A36D20 /* ChatUI.swift in Sources */,
+				C3FAB6AE2E4A18CB00A36D20 /* AnswerStreamer.swift in Sources */,
+				C3FAB6AA2E4A189F00A36D20 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FAB6842E4A16D000A36D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3FAB68E2E4A16D000A36D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3FAB68A2E4A16D000A36D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FAB67A2E4A16CE00A36D20 /* IntellectaAssistant */;
+			targetProxy = C3FAB6892E4A16D000A36D20 /* PBXContainerItemProxy */;
+		};
+		C3FAB6942E4A16D000A36D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3FAB67A2E4A16CE00A36D20 /* IntellectaAssistant */;
+			targetProxy = C3FAB6932E4A16D000A36D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3FAB69A2E4A16D000A36D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3FAB69B2E4A16D000A36D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3FAB69D2E4A16D000A36D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntellectaAssistant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Privacy - Microphone Usage Description";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Meeting assistant needs microphone access to listen.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Meeting assistant needs speech recognition to transcribe your speech.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.IntellectaAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3FAB69E2E4A16D000A36D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IntellectaAssistant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Privacy - Microphone Usage Description";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Meeting assistant needs microphone access to listen.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Meeting assistant needs speech recognition to transcribe your speech.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.IntellectaAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3FAB6A02E4A16D000A36D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.IntellectaAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntellectaAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntellectaAssistant";
+			};
+			name = Debug;
+		};
+		C3FAB6A12E4A16D000A36D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.IntellectaAssistantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IntellectaAssistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IntellectaAssistant";
+			};
+			name = Release;
+		};
+		C3FAB6A32E4A16D000A36D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.IntellectaAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntellectaAssistant;
+			};
+			name = Debug;
+		};
+		C3FAB6A42E4A16D000A36D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6DV7YZY2XY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.metinemre.IntellectaAssistantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IntellectaAssistant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3FAB6762E4A16CE00A36D20 /* Build configuration list for PBXProject "IntellectaAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FAB69A2E4A16D000A36D20 /* Debug */,
+				C3FAB69B2E4A16D000A36D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FAB69C2E4A16D000A36D20 /* Build configuration list for PBXNativeTarget "IntellectaAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FAB69D2E4A16D000A36D20 /* Debug */,
+				C3FAB69E2E4A16D000A36D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FAB69F2E4A16D000A36D20 /* Build configuration list for PBXNativeTarget "IntellectaAssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FAB6A02E4A16D000A36D20 /* Debug */,
+				C3FAB6A12E4A16D000A36D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FAB6A22E4A16D000A36D20 /* Build configuration list for PBXNativeTarget "IntellectaAssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3FAB6A32E4A16D000A36D20 /* Debug */,
+				C3FAB6A42E4A16D000A36D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3FAB6732E4A16CE00A36D20 /* Project object */;
+}
