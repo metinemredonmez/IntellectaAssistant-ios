@@ -7,10 +7,13 @@
 
 import Foundation
 
+import Foundation
+
 enum Config {
-    static let baseURL = URL(string: "http://192.168.1.3:8787/v1/answer")!
-    static let bearer  = "abc123"
+    static let baseURL = URL(string: "http://yourUrl/v1/answer")!
+    static let bearer  = "abc123"   // .env ile aynı
 }
+
 
 
 
